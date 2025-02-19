@@ -6,7 +6,7 @@
 //  Version 1.0
 //  Copyright (c) 2025 Zak Goneau. All rights reserved.
 //
-//  This program says how many of a certain long can fit on a truck.
+//  This program says how many of a certain log can fit on a truck.
 
 // Import library
 import Foundation
@@ -27,7 +27,7 @@ func totalLogs() {
     // Get user input
     print("Enter a log size: 0.25, 0.5, 1 (m): ")
 
-    // Try to assign input as sting and convert into float
+    // Try to assign input as string and convert into float
     guard let lengthString = readLine(), let lengthFloat = Float(lengthString) else {
 
         // Tell user invalid input if failed conversion
